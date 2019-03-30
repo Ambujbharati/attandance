@@ -1,0 +1,208 @@
+/*Header*/
+
+
+/*.grid*/
+/*{*/
+    /*background-color: lightgrey;*/
+/*}*/
+body
+{
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+
+
+div.grid {
+  position: fixed;
+  overflow:hidden;
+  width:100%;
+  background-color: #990033;
+  top: 0;
+  border-bottom: 2px solid lightgrey;
+}
+
+.navigation
+{
+     background-color: lightgrey;
+}
+
+.nav_item
+{
+    float:right;
+    padding:20px;
+}
+
+.nav_list
+{
+    list-style:none;
+    margin-right:60px;
+    margin-top:0px;
+}
+
+#icon
+{
+    margin-top:30px;
+    margin-left:40px;
+    color:#fff;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+a:link
+{
+    color:#fff;
+}
+
+a:visited
+{
+    color:#fff;
+}
+
+a:hover
+{
+    color:black;
+}
+
+a:active
+{
+    color:black;
+}
+
+
+
+/*Body*/
+
+
+.info
+{
+    background-color: #990033;
+    color:#fff;
+    /*text-align:center;*/
+    margin-top:10%;
+    margin-left:25%;
+    width:800px;
+    height:500px;
+    box-sizing:border-box;
+    box-shadow:0 3px 2px 0 lightgrey;
+}
+
+.enter
+{
+    text-align:center;
+}
+.main_ul
+{
+    list-style:none;
+    margin-left:16%;
+}
+
+.main_li
+{
+    /*padding:4px;*/
+    margin:2px;
+    /*font-size:20px;*/
+}
+
+.input
+{
+    margin-top:2px;
+    width:500px;
+    height:30px;
+}
+
+.submit
+{
+    margin-left:25%;
+    margin-top:7%;
+    /*width:70px;*/
+    /*height:28px;*/
+    /*display:flex;*/
+    /*justify-content:center;*/
+    padding: 0.6rem 3rem;
+    border:1px solid #111;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    outline:none;
+
+
+    /*background-image:radial-gradient(#aaa, #999 ,#666, #333  );*/
+}
+
+.submit:hover
+{
+    transition:0.5s ease-in-out;
+    color : #fff;
+    background:#333;
+}
+
+/*Footer*/
+
+
+.footer
+{
+    margin-top:7%;
+    text-align:center;
+    border-top: 2px solid lightgrey;
+}
+
+.footer_list
+{
+    list-style:none;
+}
+
+
+
+/*Profile Page*/
+
+/*
+.profile_body
+{
+    margin:10%;
+    background-color: lightgrey;
+    height:100%;
+    width: 100%;
+    
+}
+*/
+.profile_ul
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    list-style: decimal;
+    font-size: 20px;
+}
+
+.profile_ul_li
+{
+    padding: 2%;
+}
+
+
+
+
+.after_signup_body
+{
+    margin-top:10%;
+}
+
+.after_login_body
+{
+    margin-top:10%;
+}
+
+.after_register_body
+{
+    margin-top:10%;
+}
+
+.after_create_body
+{
+    margin-top:10%;
+}
+
